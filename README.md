@@ -19,3 +19,13 @@ Accuracy, precision, recall and F1 are our performance metric.
 - Precision
 - Recall
 - F1 
+
+
+## Code
+
+```sh
+$ pip install notebook
+$ pip install pandas
+$ pip install scikit-learn
+$ jupyter notebook
+```
