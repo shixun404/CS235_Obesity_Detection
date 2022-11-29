@@ -14,3 +14,5 @@ $ source venv/bin/activate
 (venv) $ pip install scikit-learn
 (venv) $ jupyter notebook
 ```
+
+Then run all cells in the notebook.
