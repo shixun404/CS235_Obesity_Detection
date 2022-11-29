@@ -1,31 +1,16 @@
-# CS235_Obesity_Detection
-## Intro
-Obesity is a common health issue. It is related to multiple factors, including eating habits, physical conditions, and other variables.
-Predicting obesity from tens of attributes is a challenging task.
-Given real-world obesity data, we employ five data mining techniques to predict whether a person will develop obesity or not.
-The input have $14$ attributes, including eating habits, physical conditions and other variables.
-We choose five classification methods: perceptron, logistic regression, naive Bayes, ID3 decision tree, and CART decision tree.
-Accuracy, precision, recall and F1 are our performance metric.
+# CS235 Obesity Prediction
 
-## Methods
-- Perceptron
-- Logistic regression
-- Naive Bayes
-- ID3 decision tree
-- CART decision tree
+`code.ipynb` is the jupyter notebook that contains our code.
 
-## Performance Metric
-- Accuracy
-- Precision
-- Recall
-- F1 
+`ObesityDataSet_raw_and_data_sinthetic.csv` is our dataset that will be used by `code.ipynb`.
 
-
-## Code
+To run our notebook, please execute the following commands:
 
 ```sh
-$ pip install notebook
-$ pip install pandas
-$ pip install scikit-learn
-$ jupyter notebook
+$ virtualenv venv
+$ source venv/bin/activate
+(venv) $ pip install notebook
+(venv) $ pip install pandas
+(venv) $ pip install scikit-learn
+(venv) $ jupyter notebook
 ```
